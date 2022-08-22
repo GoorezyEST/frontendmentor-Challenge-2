@@ -1,0 +1,124 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.content-start {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(213, 19%, 18%),
+    hsl(214, 21%, 13%)
+  );
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.icon--star {
+  background-color: hsl(214, 19%, 24%);
+  padding: 16px;
+  border: none;
+  border-radius: 50%;
+}
+
+.start-header {
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+
+.start-text {
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  margin-top: -15px;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.btn__rate {
+  background-color: hsl(214, 19%, 24%);
+  color: hsl(217, 12%, 63%);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn__rate:hover {
+  background-color: #fc7614;
+  color: hsl(0, 0%, 100%);
+}
+
+.btn__rate:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn__submit {
+  background-color: #fc7614;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 13px;
+  border-radius: 20px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.btn__submit:active {
+  background-color: hsl(0, 0%, 100%);
+  color: #fc7614;
+}
+
+.content-end {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(213, 19%, 18%),
+    hsl(214, 21%, 13%)
+  );
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.rate--container {
+  display: flex;
+  justify-content: center;
+}
+
+.display__rate {
+  color: #fc7614;
+  background-color: hsl(214, 19%, 24%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  margin-top: 35px;
+}
